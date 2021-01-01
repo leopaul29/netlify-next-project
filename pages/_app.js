@@ -28,17 +28,18 @@ export function reportWebVitals(metric) {
       break;
     case "Next.js-hydration":
       // handle hydration results
-      // time take to start and finsh hydrating
+      // length of time it take to start and finsh hydrating
       break;
     case "Next.js-route-change-to-render":
       // handle route-change to render results
-      // time take to start rendering afer route change
+      // length of time it take to start rendering afer route change
       break;
     case "Next.js-render":
       // handle render results
-      // time take to finish rendering after route change
+      // length of time it take to finish rendering after route change
       break;
     default:
+      console.log(metric)
       break;
   }
 }
