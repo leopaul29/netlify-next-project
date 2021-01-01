@@ -5,7 +5,7 @@ function Pokemon({ pokemon }) {
     <>
       <Head>
         <title>Pokemon: {pokemon?.name}</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-with/>
+        <meta name="viewport" content="initial-scale=1.0, width=device-with"/>
       </Head>
       <div>
         Welcome, {pokemon?.name}!
